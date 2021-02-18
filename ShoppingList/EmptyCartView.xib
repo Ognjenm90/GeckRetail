@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EmptyCartView" customModule="Geck_Retail" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="48" translatesAutoresizingMaskIntoConstraints="NO" id="8Lx-dt-6ay">
+                    <rect key="frame" x="0.0" y="90" width="0.0" height="7630"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Ist Deine Einkaufsliste noch leer?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Dx-VV-bAZ">
+                            <rect key="frame" x="62" y="0.0" width="251" height="20.5"/>
+                            <fontDescription key="fontDescription" style="UICTFontTextStyleBody"/>
+                            <color key="textColor" red="0.63137254901960782" green="0.66666666666666663" blue="0.70196078431372544" alpha="1" colorSpace="deviceRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoppingcart_orange" translatesAutoresizingMaskIntoConstraints="NO" id="6El-3l-ufc">
+                            <rect key="frame" x="122.5" y="68.5" width="130" height="113"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MUq-KO-V3q">
+                            <rect key="frame" x="0.0" y="229.5" width="0.0" height="7400.5"/>
+                            <attributedString key="attributedText">
+                                <fragment>
+                                    <string key="content">über das +-Symbol oben rechts
+kannst Du</string>
+                                    <attributes>
+                                        <color key="NSColor" red="0.63137254901960782" green="0.66666666666666663" blue="0.70196078431372544" alpha="1" colorSpace="deviceRGB"/>
+                                        <font key="NSFont" metaFont="system" size="17"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content=" ">
+                                    <attributes>
+                                        <color key="NSColor" red="0.30980393290000002" green="0.50588238240000005" blue="0.74117648599999997" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" metaFont="system" size="17"/>
+                                    </attributes>
+                                </fragment>
+                                <fragment content="Produkte hinzufügen">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.16862745098039217" blue="0.19215686274509802" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" metaFont="system" size="17"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" red="0.97254901960784312" green="0.97647058823529409" blue="0.98039215686274506" alpha="1" colorSpace="deviceRGB"/>
+            <constraints>
+                <constraint firstItem="8Lx-dt-6ay" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="90" id="SQy-1h-HAh"/>
+                <constraint firstItem="8Lx-dt-6ay" firstAttribute="centerX" secondItem="vUN-kp-3ea" secondAttribute="centerX" id="dOI-Lm-uSN"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="shoppingcart_orange" width="130" height="113"/>
+    </resources>
+</document>

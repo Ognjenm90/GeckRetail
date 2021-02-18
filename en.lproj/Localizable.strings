@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Geck Retail
+
+  Created by Prof. Dr. Nunkesser, Robin on 27.01.18.
+  Copyright © 2018 Hochschule Hamm-Lippstadt. All rights reserved.
+*/
+
+"NoData.error"  = "Daten konnten nicht geladen werden";

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15508" systemVersion="19B88" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CategoryEntity" representedClassName="CategoryEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GoodsEntity" representedClassName="GoodsEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="String"/>
+        <attribute name="inCart" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="priceEdeka" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="priceRewe" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="priority" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="synonyms" optional="YES" attributeType="String"/>
+        <relationship name="category" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="CategoryEntity"/>
+    </entity>
+    <elements>
+        <element name="CategoryEntity" positionX="-54" positionY="9" width="128" height="60"/>
+        <element name="GoodsEntity" positionX="-387" positionY="-18" width="128" height="163"/>
+    </elements>
+</model>

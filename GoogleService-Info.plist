@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>1035817806728-o8p2kmgp0i27kcpaloengcvp8dpenplk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1035817806728-o8p2kmgp0i27kcpaloengcvp8dpenplk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAaRQH6t1wB7H9G-rpL7_SKnfxIIJjpPpM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1035817806728</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>geckfood</string>
+	<key>PROJECT_ID</key>
+	<string>geckretail-6bce3</string>
+	<key>STORAGE_BUCKET</key>
+	<string>geckretail-6bce3.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1035817806728:ios:879099aa4f39acad13683d</string>
+	<key>DATABASE_URL</key>
+	<string>https://geckretail-6bce3.firebaseio.com</string>
+</dict>
+</plist>
